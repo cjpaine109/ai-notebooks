@@ -44,7 +44,7 @@ In this project, we compute the parameters of the Linear Regression model using 
 
 1. **Navigate to the project directory**:
     ```bash
-    cd Simple\ Linear\ Regression
+    cd Simple Linear Regression
     ```
 
 2. **Open the Jupyter Notebooks**:
