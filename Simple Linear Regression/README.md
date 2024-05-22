@@ -25,8 +25,8 @@ In this project, we compute the parameters of the Linear Regression model using 
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/cjpaine109/MLAlgorithmsFromScratch.git
-    cd MLAlgorithmsFromScratch
+    git clone https://github.com/cjpaine109/ai-notebooks.git
+    cd ai-notebooks
     ```
 
 2. **Install necessary packages**:
