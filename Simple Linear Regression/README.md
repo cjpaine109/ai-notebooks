@@ -83,4 +83,4 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For any questions or inquiries, please contact me at [your email address].
+For any questions: cjpaine109@gmail.com.
