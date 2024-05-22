@@ -55,16 +55,16 @@ In this project, we compute the parameters of the Linear Regression model using 
 
 ## Explanation of the Normal Equation
 
-The Normal Equation is used to find the optimal parameters (\(\theta\)) that minimize the cost function in Linear Regression. The closed-form solution is given by:
+The Normal Equation is used to find the optimal parameters (theta) that minimize the cost function in Linear Regression. The closed-form solution is given by:
 
 \[
-\theta = (X^T X)^{-1} X^T y
+theta = (X^T X)^{-1} X^T y
 \]
 
 where:
 - \(X\) is the matrix of input features.
 - \(y\) is the vector of output values.
-- \(\theta\) is the vector of parameters to be computed.
+- \(theta\) is the vector of parameters to be computed.
 
 This method directly computes the best-fit parameters without requiring iterative optimization techniques like Gradient Descent.
 
