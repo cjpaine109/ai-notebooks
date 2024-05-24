@@ -26,6 +26,7 @@ In this project, we compute the parameters of the Linear Regression model using 
 Clone the repository:
 
 git clone https://github.com/cjpaine109/ai-notebooks.git
+
 cd ai-notebooks
 
 Install necessary packages: Make sure you have the required basic Python packages installed. You can use pip to install them:
