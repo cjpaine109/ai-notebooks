@@ -1,0 +1,10 @@
+---
+To compute the size of the steps determined by the learning rate, we use the following equation:
+
+  "Step = θ − learning rate × gradients"
+
+Where:
+    -> θ: the current parameters (theta in this case)
+    -> learning rate: the size of the step
+    -> gradients: the current slope of the convex function (Mean Squared Error, or MSE, loss function)
+---
