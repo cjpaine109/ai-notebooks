@@ -8,8 +8,8 @@ In this project, we compute the parameters of the Linear Regression model using 
 
 ## Files
 
-- `Linear_Regression_Batch_Gradient_Descent.ipynb`: Jupyter Notebook demonstrating the implementation and usage of the Linear Regression model with Batch Gradient Descent.
-- `Linear_Regression_Batch_Gradient_Descent_class.ipynb`: Jupyter Notebook containing a class-based implementation of Linear Regression using Batch Gradient Descent.
+- `batch_gradient_descent.ipynb`: Jupyter Notebook demonstrating the implementation and usage of the Linear Regression model with Batch Gradient Descent.
+- `batch_gradient_descent_class.ipynb`: Jupyter Notebook containing a class-based implementation of Linear Regression using Batch Gradient Descent.
 - `Equations`: A folder containing some of the basic equations used.
 - `README.md`: Documentation of the project.
 
@@ -48,7 +48,7 @@ In this project, we compute the parameters of the Linear Regression model using 
     ```
 
 2. **Open the Jupyter Notebooks**:
-    Open `Linear_Regression_Batch_Gradient_Descent.ipynb` or `Linear_Regression_Batch_Gradient_Descent_class.ipynb` in Jupyter Notebook to run and explore the code.
+    Open `batch_gradient_descent.ipynb` or `batch_gradient_descent_class.ipynb` in Jupyter Notebook to run and explore the code.
 
 ## Explanation of Batch Gradient Descent
 
@@ -57,8 +57,8 @@ Batch Gradient Descent is used to find the optimal parameters (theta) that minim
 $\theta := \theta - \alpha \frac{1}{m} X^T (X \theta - y)$
 
 where:
-- \(\theta\) is the vector of parameters.
-- \(\alpha\) is the learning rate.
+- \(theta) is the vector of parameters.
+- \(alpha) is the learning rate.
 - \(X\) is the matrix of input features.
 - \(y\) is the vector of output values.
 - \(m\) is the number of training examples.
