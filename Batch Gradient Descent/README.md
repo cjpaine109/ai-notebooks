@@ -44,7 +44,7 @@ In this project, we compute the parameters of the Linear Regression model using 
 
 1. **Navigate to the project directory**:
     ```bash
-    cd Batch_Gradient_Descent_Linear_Regression
+    cd Batch_Gradient_Descent
     ```
 
 2. **Open the Jupyter Notebooks**:
