@@ -57,9 +57,7 @@ In this project, we compute the parameters of the Linear Regression model using 
 
 The Normal Equation is used to find the optimal parameters (theta) that minimize the cost function in Linear Regression. The closed-form solution is given by:
 
-\[
-theta = (X^T X)^{-1} X^T y
-\]
+\(\theta = (X^T X)^{-1} X^T y\)
 
 where:
 - \(X\) is the matrix of input features.
