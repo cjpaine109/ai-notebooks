@@ -4,7 +4,7 @@ This repository contains basic implementations of Linear Regression models from 
 
 ## Description
 
-In this project, we compute the parameters of the Linear Regression model using a closed-form solution known as the Normal Equation. This method is best suited for small to medium-sized datasets due to its time complexity of \(O(n^3)\).
+In this project, we compute the parameters of the Linear Regression model using a closed-form solution known as the Normal Equation. This method is best suited for small to medium-sized datasets due to its time complexity of O(n^3).
 
 ## Files
 
