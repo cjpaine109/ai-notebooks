@@ -10,7 +10,7 @@ In this project, we compute the parameters of the Linear Regression model using 
 
 - `Linear_Regression_Batch_Gradient_Descent.ipynb`: Jupyter Notebook demonstrating the implementation and usage of the Linear Regression model with Batch Gradient Descent.
 - `Linear_Regression_Batch_Gradient_Descent_class.ipynb`: Jupyter Notebook containing a class-based implementation of Linear Regression using Batch Gradient Descent.
-- 'Equations': A folder containing some of the equations used.
+-  Equations: A folder containing some of the equations used.
 - `README.md`: Documentation of the project.
 
 ## Getting Started
@@ -25,22 +25,12 @@ In this project, we compute the parameters of the Linear Regression model using 
 
 Clone the repository:
 
-\`\`\`bash
 git clone https://github.com/cjpaine109/ai-notebooks.git
 cd ai-notebooks
-\`\`\`
 
 Install necessary packages: Make sure you have the required basic Python packages installed. You can use pip to install them:
 
-\`\`\`bash
 pip install numpy pandas matplotlib
-\`\`\`
-
-Open Jupyter Notebook:
-
-\`\`\`bash
-jupyter notebook
-\`\`\`
 
 ### Usage
 
@@ -52,7 +42,8 @@ Open the Jupyter Notebooks: Open `batch_gradient_descent.ipynb` or `batch_gradie
 
 Batch Gradient Descent is an iterative optimization algorithm used to find the parameters (theta) that minimize the cost function in Linear Regression. The algorithm updates the parameters iteratively using the following update rule:
 
-\[ \theta := \theta - \alpha \frac{1}{m} X^T (X \theta - y) \]
+$\theta := \theta - \alpha \frac{1}{m} X^T (X \theta - y)$
+ 
 
 where:
 - `theta` is the vector of parameters.
@@ -61,7 +52,7 @@ where:
 - `y` is the vector of output values.
 - `m` is the number of training examples.
 
-This method requires multiple iterations and is suitable for large datasets.
+This method requires multiple iterations and is not suitable for large datasets.
 
 ## Note
 
