@@ -68,7 +68,7 @@ This method directly computes the best-fit parameters without requiring iterativ
 
 ## Note
 
-- This implementation is intended for educational purposes and may not be suitable for large datasets due to its \O(n^3)\ time complexity.
+- This implementation is intended for educational purposes and may not be suitable for large datasets due to its O(n^3) time complexity.
 - Ensure that the dataset is correctly formatted and located in the `Dataset` folder before running the notebooks.
 
 ## Contributing
