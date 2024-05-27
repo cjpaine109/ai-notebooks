@@ -52,6 +52,15 @@ In this project, we compute the parameters for a Linear Regression model using S
 
 Note: very similar to BGD. Some slight differences in implementation (computing gradients + random sample)
 
+$w := w - \eta \nabla Q_{i}(w)$
+
+Where:
+- $w$ represents the weights or parameters of the model.
+- $\eta$ (eta) is the learning rate, a scalar that controls the step size.
+- $\nabla Q_{i}(w)$ is the gradient of the loss function $Q$ with respect to the weights $w$, computed using the $i$-th training example.
+
+This notation indicates that the weights are updated by moving in the direction opposite to the gradient of the loss function, scaled by the learning rate.
+
 ## Note
 
 - This implementation is intended for educational purposes.
