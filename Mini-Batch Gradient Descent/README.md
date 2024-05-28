@@ -51,18 +51,18 @@ In this project, we compute the parameters for a Linear Regression model using M
     Open `mini_batch_gradient_descent.ipynb` in Jupyter Notebook to run and explore the code or
     open `mini_batch_gradient_descent_class.ipynb` in Jupyter Notebook to run and explore the code.
 
-## Explanation of the SGD:
+## Explanation of the Mini-Batch Gradient Descent Algorithm:
 
 Note: very similar to SGD. Some slight differences in implementation (computing gradients + random sample size)
 
-$w := w - \eta \nabla Q_{i}(w)$
+$w := w - \eta \cdot \frac{1}{m} \sum_{i \in \mathcal{B}} \nabla Q_{i}(w)$
 
 Where:
 - $w$ represents the weights or parameters of the model.
 - $\eta$ (eta) is the learning rate, a scalar that controls the step size.
-- $\nabla Q_{i}(w)$ is the gradient of the loss function $Q$ with respect to the weights $w$, computed using the selected training examples.
-
-This notation indicates that the weights are updated by moving in the direction opposite to the gradient of the loss function, scaled by the learning rate.
+- $\nabla Q_{i}(w)$ is the gradient of the loss function $Q$ with respect to the weights $w$, computed using the $i$-th training example in the mini-batch.
+- $m$ is the mini-batch size.
+- $\mathcal{B}$ is the set of indices of the training examples in the current mini-batch.
 
 ## Note
 
