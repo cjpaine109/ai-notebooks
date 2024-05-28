@@ -48,8 +48,8 @@ In this project, we compute the parameters for a Linear Regression model using M
     ```
 
 2. **Open the Jupyter Notebooks**:
-    Open `mini_batch_gradient_descent.ipynb` in Jupyter Notebook to run and explore the code.
-    Open `mini_batch_gradient_descent_class.ipynb` in Jupyter Notebook to run and explore the code.
+    Open `mini_batch_gradient_descent.ipynb` in Jupyter Notebook to run and explore the code or
+    open `mini_batch_gradient_descent_class.ipynb` in Jupyter Notebook to run and explore the code.
 
 ## Explanation of the SGD:
 
