@@ -1,0 +1,29 @@
+--------------------------------------------------------------
+Summarizing the Different Types of Gradient Descent Algorithms
+--------------------------------------------------------------
+
+Gradient descent algorithms are essential for optimizing the parameters of machine learning models.
+Let's explore the three main types of gradient descent and their characteristics:
+
+- Batch Gradient Descent: This algorithm processes the entire dataset to compute the gradient
+for each iteration or epoch. Although it provides a stable convergence path, it can be quite slow,
+especially for large datasets, due to the computational overhead of processing all data points at once.
+
+- Stochastic Gradient Descent (SGD): Unlike batch gradient descent, SGD updates the model
+parameters for each training example, one at a time. This makes it much faster per iteration but
+introduces more noise into the parameter updates, which can lead to a more erratic
+convergence process. However, this noise can sometimes help the algorithm escape local
+minima, potentially leading to a better overall solution.
+
+- Mini-Batch Gradient Descent: Mini-batch gradient descent strikes a balance between batch
+gradient descent and SGD by using a subset (or batch) of the dataset to compute each update.
+This approach can significantly speed up the training process compared to batch gradient
+descent while maintaining more stable convergence than SGD. It effectively combines the
+computational efficiency of SGD with the smoother convergence properties of batch gradient descent.
+
+Generally, these algorithms are designed to converge to a similar set of parameter values, provided
+that the hyperparameters (such as learning rate and batch size) are appropriately tuned for the
+specific dataset or problem at hand. Proper hyperparameter tuning is crucial to ensure that the
+algorithms perform optimally and reach convergence in a reasonable timeframe.
+
+Note: I added plots to track converge! (Loss over training)
