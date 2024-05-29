@@ -26,4 +26,4 @@ that the hyperparameters (such as learning rate and batch size) are appropriatel
 specific dataset or problem at hand. Proper hyperparameter tuning is crucial to ensure that the
 algorithms perform optimally and reach convergence in a reasonable timeframe.
 
-Note: I added plots to track converge! (Loss over training)
+Note: I added plots to track convergence! (Loss over training)
