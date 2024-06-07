@@ -59,9 +59,9 @@ The Normal Equation is used to find the optimal parameters (theta) that minimize
 $\theta = (X^T X)^{-1} X^T y$
 
 where:
-- \(X\) is the matrix of input features (including polynomial terms).
-- \(y\) is the vector of output values.
-- \(\theta\) is the vector of parameters to be computed.
+- `X` is the matrix of input features (including polynomial terms).
+- `y` is the vector of output values.
+- `θ` is the vector of parameters to be computed.
 
 This method directly computes the best-fit parameters without requiring iterative optimization techniques like Gradient Descent.
 
